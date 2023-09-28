@@ -12,29 +12,26 @@ int main ()
 		"Alice Kimani",
 		21,
 	};
-	cout<<Alice.Name<<endl<<Alice.Age<<endl;
 	
 	person Sarah=
 	{
 		"Sarah Abraham",
 		90,
 	};
-	cout<<Sarah.Name<<endl<<Sarah.Age<<endl;
 	
 	person Abraham=
 	{
 		"Abraham Sarah",
 		99,
 	};
-	cout<<Abraham.Name<<endl<<Abraham.Age<<endl;
 	
 	person Abram=
 	{
 		"Abram Sarai",
 		100,
 	};
-	cout<Alice.Name<<" is "<<Alice.Age<<" years old.";
-	cout<Sarah.Name<<" is "<<Sarah.Age<<" years old.";
-	cout<Abraham.Name<<" is "<<Abraham.Age<<" years old.";
-	cout<Abram.Name<<" is "<<Abram.Age<<" years old.";
+	cout<<Alice.Name<<" is "<<Alice.Age<<" years old."<<endl;
+	cout<<Sarah.Name<<" is "<<Sarah.Age<<" years old."<<endl;
+	cout<<Abraham.Name<<" is "<<Abraham.Age<<" years old."<<endl;
+	cout<<Abram.Name<<" is "<<Abram.Age<<" years old."<<endl;
 }
