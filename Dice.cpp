@@ -5,6 +5,6 @@ using namespace std;
 int main()
 {
     srand(time(NULL));
-    int num1 = rand()%6+1;
+    int num1 = (rand()%6)+1;
     cout<<num1;
 }
